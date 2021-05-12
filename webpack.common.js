@@ -14,7 +14,7 @@ module.exports = {
     },
     output: {
         filename: 'js/[name].[contenthash].bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         // https://webpack.js.org/guides/asset-modules/
         // Doesn't put hashes and exports to images folder 
         assetModuleFilename: 'images/[name][ext]',
