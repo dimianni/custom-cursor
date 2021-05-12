@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    max-width: 320px;
+    overflow-x: hidden;
+}
+
+.main{
+    width: 100%;
+    height: 200vh;
+    & a{
+        color: #000;
+    }
+}
+
+.cursor{
+    position: fixed;
+    z-index: 1000;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    // transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #000;
+    pointer-events: none;
+}
