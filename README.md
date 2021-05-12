@@ -1,5 +1,5 @@
 <h1 align="center">Custom cursor code snippet</h1>
-Made with [GSAP](https://greensock.com/gsap/) and Vanila JavaScript.
+<p>Made with <a href="https://greensock.com/gsap/">GSAP</a> and Vanila JavaScript.</p>
 
 
 <h2 align="center">Installation</h2>
